@@ -44,6 +44,14 @@ public class MaxOccured {
             }
         }
         return result;
+    }
 
+    public static void main(String[] args) {
+        MaxOccured maxOccured = new MaxOccured();
+        int n = 4;
+        int[] l = {1, 4, 3, 1};
+        int[] r = {15, 8, 5, 4};
+        int maxx = 15;
+        System.out.println(maxOccured.maxOccured(n, l, r, maxx));
     }
 }

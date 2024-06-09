@@ -25,4 +25,9 @@ public class NumberOfConsecutiveOnes {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        NumberOfConsecutiveOnes numberOfConsecutiveOnes = new NumberOfConsecutiveOnes();
+        System.out.println(numberOfConsecutiveOnes.numberOfConsecutiveOnes(2));
+    }
 }

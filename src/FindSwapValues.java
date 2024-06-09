@@ -79,4 +79,9 @@ public class FindSwapValues {
 
         return false;
     }
+
+    public static void main(String[] args) {
+        FindSwapValues findSwapValues = new FindSwapValues();
+        System.out.println(findSwapValues.findSwapValues(new long[]{4, 1, 2, 1, 1, 2}, 6, new long[]{3, 6, 3, 3}, 4));
+    }
 }

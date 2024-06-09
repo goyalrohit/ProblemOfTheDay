@@ -30,4 +30,9 @@ public class BinaryNextNumber {
         }
         return ans.toString();
     }
+
+    public static void main(String[] args) {
+        BinaryNextNumber binaryNextNumber = new BinaryNextNumber();
+        System.out.println(binaryNextNumber.binaryNextNumber("10"));
+    }
 }

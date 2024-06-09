@@ -30,4 +30,9 @@ public class ConstructList {
         Collections.sort(intList);
         return intList;
     }
+
+    public static void main(String[] args) {
+        ConstructList constructList = new ConstructList();
+        System.out.println(constructList.constructList(5, new int[][]{{0, 6}, {0, 3}, {0, 2}, {1, 4}, {1, 5}}));
+    }
 }

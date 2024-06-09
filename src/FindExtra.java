@@ -16,5 +16,10 @@ public class FindExtra {
         }
         return n -1;
     }
+
+    public static void main(String[] args) {
+        FindExtra findExtra = new FindExtra();
+        System.out.println(findExtra.findExtra(7, new int[]{2, 4, 6, 8, 9, 10, 12}, new int[]{2, 4, 6, 8, 10, 12}));
+    }
 }
 

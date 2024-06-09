@@ -32,4 +32,9 @@ public class MaxSum {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+        MaxSum maxSum = new MaxSum();
+        System.out.println(maxSum.max_sum(new int[]{8, 3, 1, 2}, 4));
+    }
 }

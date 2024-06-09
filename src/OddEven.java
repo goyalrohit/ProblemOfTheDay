@@ -46,4 +46,9 @@ public class OddEven {
         result = (x + y) % 2 == 0 ? "EVEN" : "ODD";
         return result;
     }
+
+    public static void main(String[] args) {
+        OddEven oddEven = new OddEven();
+        System.out.println(oddEven.oddEven("abbbcc"));
+    }
 }
