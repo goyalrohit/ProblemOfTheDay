@@ -1,3 +1,4 @@
+//Padovan Sequence
 //Given a number n, find the nth number in the Padovan Sequence.
 //A Padovan Sequence is a sequence which is represented by the following recurrence relation
 //P(n) = P(n-2) + P(n-3)
@@ -10,6 +11,7 @@
 
 
 public class PadovanSequence {
+    static int n1=0,n2=1,n3=0;
     public int padovanSequence(int n)
     {
         //code here.
@@ -31,5 +33,22 @@ public class PadovanSequence {
         PadovanSequence padovanSequence = new PadovanSequence();
         int n = 3;
         System.out.println(padovanSequence.padovanSequence(n));
+        System.out.print(0+" "+1);
+        padovanSequence.fibonaci(8);
     }
+
+    public static void fibonaci (int cnt){
+
+
+
+        if (cnt > 0){
+            n3 = n1+n2;
+            n1= n2;
+            n2=n3;
+            System.out.print(" "+ n3);
+            fibonaci(cnt -1);
+        }
+
+    }
+
 }
