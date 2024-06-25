@@ -44,7 +44,7 @@ public class RotateMatrix {
             for (int val : row) {
                 System.out.print(val + " ");
             }
-            System.out.println();3
+            System.out.println();
         }
 }
 }
